@@ -1,0 +1,40 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 2235milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2235"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54425"}
+{"logLevel":"info","message":"Listening on port:54425"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BaseStep.waitForseconds' and 'BaseStep.waitForseconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickByxpath' and 'BaseStep.clickByxpath'"}
+{"logLevel":"debug","message":"Found xpath {} li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.scroll' and 'BaseStep.scroll'"}
+{"logLevel":"debug","message":"Found {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickByid' and 'BaseStep.clickByid'"}
+{"logLevel":"debug","message":"Found id {} li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.selectRandom' and 'BaseStep.selectRandom'"}
+{"logLevel":"debug","message":"Found Random ürün seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.kullaniciAdi' and 'BaseStep.kullaniciAdi'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\txpath {} li elemente tıkla : public void clickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} : public void scroll(String scroll)"}
+{"logLevel":"debug","message":"\tid {} li elemente tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForseconds(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\tRandom ürün seç : public void selectRandom()"}
+{"logLevel":"debug","message":"\t{} İd'li elemente {} değerini yaz : public void kullaniciAdi(String id, String text)"}
+Lokalde Android ayaga kalkti
+May 22, 2022 11:06:29 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'id {} li elemente tıkla' using 'class BaseStep.clickByid"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

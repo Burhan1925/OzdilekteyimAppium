@@ -1,0 +1,141 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1655milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1655"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57590"}
+{"logLevel":"info","message":"Listening on port:57590"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BaseStep.SepeteEkle' and 'BaseStep.SepeteEkle'"}
+{"logLevel":"debug","message":"Found {} Sepete ekleme yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.waitForSeconds' and 'BaseStep.waitForSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickById' and 'BaseStep.clickById'"}
+{"logLevel":"debug","message":"Found id{} li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.FavoriEkle' and 'BaseStep.FavoriEkle'"}
+{"logLevel":"debug","message":"Found xpath{} Favoriye ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickByXpathPantolon' and 'BaseStep.clickByXpathPantolon'"}
+{"logLevel":"debug","message":"Found xpath{} Pantolon kategorisine tıklandı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.checkText1' and 'BaseStep.checkText1'"}
+{"logLevel":"debug","message":"Found id{} li elementi ara in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickBykategori' and 'BaseStep.clickBykategori'"}
+{"logLevel":"debug","message":"Found id{} kategoriye tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.loginPassword' and 'BaseStep.loginPassword'"}
+{"logLevel":"debug","message":"Found {} 'li elemente {} Sifre girme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.checkText3' and 'BaseStep.checkText3'"}
+{"logLevel":"debug","message":"Found id{} Giris  kontrolu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.checkText' and 'BaseStep.checkText'"}
+{"logLevel":"debug","message":"Found id{} li elementi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.swipeUp' and 'BaseStep.swipeUp'"}
+{"logLevel":"debug","message":"Found Sayfayı aşağı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.checkUrunDetay' and 'BaseStep.checkUrunDetay'"}
+{"logLevel":"debug","message":"Found id{} Urun detay kontrolu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.loginMail' and 'BaseStep.loginMail'"}
+{"logLevel":"debug","message":"Found {} id'li elemente {} Email adresi girme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickByXpathkadin' and 'BaseStep.clickByXpathkadin'"}
+{"logLevel":"debug","message":"Found xpath{} kadın kategorisine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.selectRandom' and 'BaseStep.selectRandom'"}
+{"logLevel":"debug","message":"Found Rastgele bir urun sec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickGeri' and 'BaseStep.clickGeri'"}
+{"logLevel":"debug","message":"Found id{} Geri tusuna tikla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\txpath{} Pantolon kategorisine tıklandı : public void clickByXpathPantolon(String pantolon)"}
+{"logLevel":"debug","message":"\tid{} li elementi ara : public void checkText1(String id)"}
+{"logLevel":"debug","message":"\tRastgele bir urun sec : public void selectRandom()"}
+{"logLevel":"debug","message":"\t{} id'li elemente {} Email adresi girme : public void loginMail(String emailId, String emailText)"}
+{"logLevel":"debug","message":"\t{} Sepete ekleme yap : public void SepeteEkle(String sepetId)"}
+{"logLevel":"debug","message":"\tSayfayı aşağı kaydır : public void swipeUp()"}
+{"logLevel":"debug","message":"\txpath{} kadın kategorisine tıkla : public void clickByXpathkadin(String kadin)"}
+{"logLevel":"debug","message":"\tid{} li elementi kontrol et : public void checkText(String id)"}
+{"logLevel":"debug","message":"\txpath{} Favoriye ekle : public void FavoriEkle(String favXpath)"}
+{"logLevel":"debug","message":"\tid{} kategoriye tıkla : public void clickBykategori(String kategori)"}
+{"logLevel":"debug","message":"\tid{} Giris  kontrolu : public void checkText3(String id)"}
+{"logLevel":"debug","message":"\tid{} li elemente tıkla : public void clickById(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSeconds(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} 'li elemente {} Sifre girme : public void loginPassword(String passwordId, String passwordText)"}
+{"logLevel":"debug","message":"\tid{} Urun detay kontrolu : public void checkUrunDetay(String id)"}
+{"logLevel":"debug","message":"\tid{} Geri tusuna tikla : public void clickGeri(String id)"}
+Lokalde Android ayaga kalkti
+May 23, 2022 3:03:15 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} li elementi kontrol et' using 'class BaseStep.checkText"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} li elemente tıkla' using 'class BaseStep.clickById"}
+{"logLevel":"info","message":"Uygulama acildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} li elementi ara' using 'class BaseStep.checkText1"}
+{"logLevel":"info","message":"Alisveris sayfasi acildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} kategoriye tıkla' using 'class BaseStep.clickBykategori"}
+{"logLevel":"info","message":"Kategoriye tiklandi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'xpath{} kadın kategorisine tıkla' using 'class BaseStep.clickByXpathkadin"}
+{"logLevel":"info","message":"Kadin kategorisine tiklandi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'xpath{} Pantolon kategorisine tıklandı' using 'class BaseStep.clickByXpathPantolon"}
+{"logLevel":"info","message":"Pantolon kategorisine tiklandi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Sayfayı aşağı kaydır' using 'class BaseStep.swipeUp"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Rastgele bir urun sec' using 'class BaseStep.selectRandom"}
+rastgeleUrun[[[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=emulator-5554}, deviceApiLevel=30, deviceManufacturer=unknown, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x3040, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2788}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=emulator-5554}, deviceApiLevel=30, deviceManufacturer=unknown, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x3040, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2788}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=emulator-5554}, deviceApiLevel=30, deviceManufacturer=unknown, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x3040, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2788}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=emulator-5554}, deviceApiLevel=30, deviceManufacturer=unknown, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x3040, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2788}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']]]
+{"logLevel":"info","message":"Rastgele bir urun secildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} Urun detay kontrolu' using 'class BaseStep.checkUrunDetay"}
+{"logLevel":"info","message":"Urun detay kontrolu yapildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'xpath{} Favoriye ekle' using 'class BaseStep.FavoriEkle"}
+{"logLevel":"info","message":"Urun favorilere eklendi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} Giris  kontrolu' using 'class BaseStep.checkText3"}
+{"logLevel":"info","message":"Yeniden giris yapildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente {} Email adresi girme' using 'class BaseStep.loginMail"}
+{"logLevel":"info","message":"E-Mail adresi girildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} 'li elemente {} Sifre girme' using 'class BaseStep.loginPassword"}
+{"logLevel":"info","message":"Sifre girildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} Geri tusuna tikla' using 'class BaseStep.clickGeri"}
+{"logLevel":"info","message":"Geri tusuna basildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} Geri tusuna tikla' using 'class BaseStep.clickGeri"}
+{"logLevel":"info","message":"Geri tusuna basildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Rastgele bir urun sec' using 'class BaseStep.selectRandom"}
+rastgeleUrun[[[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=emulator-5554}, deviceApiLevel=30, deviceManufacturer=unknown, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x3040, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2788}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=emulator-5554}, deviceApiLevel=30, deviceManufacturer=unknown, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x3040, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2788}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=emulator-5554}, deviceApiLevel=30, deviceManufacturer=unknown, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x3040, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2788}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=emulator-5554}, deviceApiLevel=30, deviceManufacturer=unknown, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x3040, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2788}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']]]
+{"logLevel":"info","message":"Rastgele bir urun secildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} Sepete ekleme yap' using 'class BaseStep.SepeteEkle"}
+{"logLevel":"info","message":"Sepete ekle tusuna basildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BaseStep.waitForSeconds"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
